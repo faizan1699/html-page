@@ -146,6 +146,56 @@ body {
     border-color: #fff;
 }
 
+/* mail-form */
+
+.mail-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 50px 0;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: rgb(117, 91, 91);
+    max-width: 600px;
+    padding: 40px 20px;
+    border-radius: 20px;
+    
+}
+
+
+
+.form input, .form textarea{
+    border-radius: 10px;
+    border: none;
+    padding: 10px 15px;
+    outline: none;
+}
+
+.name-group {
+    display: flex;
+    gap: 20px;
+}
+
+.form-button {
+    display: flex;
+    justify-content: end;
+    
+}
+
+.form-button button {
+   padding:10px 20px;
+   border-radius: 10px;
+   border: none;
+   cursor: pointer;
+}
+
+
+
+
 @media (max-width: 700px) {
     .header {
         min-height: 76px;
@@ -206,11 +256,4 @@ body {
         padding-top: 150px;
         background-position: 62% center;
     }
-
-    .form {
-    
-    }
-
-
-
 }
