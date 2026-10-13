@@ -155,6 +155,23 @@ body {
     padding: 50px 0;
 }
 
+.form-header {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding-bottom: 20px;
+}
+
+.form-header h1 {
+    font-size: 30px;
+    color: white;
+}
+
+.form-header h3 {
+    font-size: 20px;
+    color: white;
+}
+
 .form {
     display: flex;
     flex-direction: column;
@@ -163,12 +180,13 @@ body {
     max-width: 600px;
     padding: 40px 20px;
     border-radius: 20px;
-    
+
 }
 
 
 
-.form input, .form textarea{
+.form input,
+.form textarea {
     border-radius: 10px;
     border: none;
     padding: 10px 15px;
@@ -183,16 +201,68 @@ body {
 .form-button {
     display: flex;
     justify-content: end;
-    
+
 }
 
 .form-button button {
-   padding:10px 20px;
-   border-radius: 10px;
-   border: none;
-   cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+
 }
 
+/* footer */
+
+.footer-container {
+    display: flex;
+    gap: 30px;
+    padding: 50px 7%;
+    background-color: #76839e;
+
+}
+
+.logo-img  {
+    width: 100px;
+    height: 100px;
+
+
+}
+
+.footer-information {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-information a {
+    font-size: 20px;
+    color: white;
+
+}
+
+.footer-column {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-column a {
+    font-size: 20px;
+    color: white;
+
+}
+
+.footer-support {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-support a {
+    color: white;
+    font-size: 20px;
+}
 
 
 
