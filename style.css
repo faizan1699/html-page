@@ -222,7 +222,7 @@ body {
 
 }
 
-.logo-img  {
+.logo-img {
     width: 100px;
     height: 100px;
 
@@ -252,6 +252,7 @@ body {
     color: white;
 
 }
+
 .footer-support {
     display: flex;
     flex-direction: column;
