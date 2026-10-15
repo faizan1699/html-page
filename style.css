@@ -214,124 +214,43 @@ body {
 
 /* footer */
 
-.footer-container {
+.footer {
+    width: 100%;
     display: flex;
-    gap: 30px;
-    padding: 50px 7%;
+    justify-content: center;
     background-color: #76839e;
 
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    padding: 50px 7%;
+    width: 100%;
+    max-width: 1400px;
+
+}
+
+.footer-links {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
 }
 
 .logo-img  {
     width: 100px;
     height: 100px;
-
-
 }
 
-.footer-information {
+.footer-menus {
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
 
-.footer-information a {
+.footer-menus a {
     font-size: 20px;
     color: white;
 
-}
-
-.footer-column {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
-
-.footer-column a {
-    font-size: 20px;
-    color: white;
-
-}
-.footer-support {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
-
-
-
-.footer-support a {
-    color: white;
-    font-size: 20px;
-}
-
-.footer {
-
-    display: flex;
-    justify-content: center;
-    width: 100%;
-}
-
-
-
-@media (max-width: 700px) {
-    .header {
-        min-height: 76px;
-        gap: 16px;
-        padding: 12px 5%;
-    }
-
-    .logo img {
-        width: 44px;
-        height: 44px;
-    }
-
-    .nav ul {
-        gap: clamp(10px, 2.5vw, 20px);
-    }
-
-    .nav a {
-        font-size: 13px;
-    }
-
-    .action button {
-        min-height: 40px;
-        padding: 0 15px;
-        font-size: 13px;
-    }
-
-    .hero {
-        padding-right: 6%;
-        padding-left: 6%;
-        background-position: 60% center;
-    }
-}
-
-@media (max-width: 480px) {
-    .header {
-        flex-wrap: wrap;
-        justify-content: space-between;
-        gap: 12px;
-        padding: 12px 5%;
-    }
-
-    .nav {
-        order: 3;
-        width: 100%;
-    }
-
-    .nav ul {
-        justify-content: space-between;
-        gap: 8px;
-    }
-
-    .nav a {
-        font-size: 12px;
-    }
-
-    .hero {
-        min-height: 100svh;
-        padding-top: 150px;
-        background-position: 62% center;
-    }
 }
