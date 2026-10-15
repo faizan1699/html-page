@@ -1,9 +1,8 @@
-
-
 * {
     margin: 0;
     padding: 0;
 }
+
 html {
     scroll-behavior: smooth;
 }
@@ -16,7 +15,17 @@ html {
     justify-content: space-between;
 }
 
+.mw-1400 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 1400px;
+}
 
+.w-full {
+    width: 100%;
+    
+}
 
 /* Header */
 
