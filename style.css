@@ -14,23 +14,30 @@ body {
 }
 
 .container {
-    min-height: 100vh;
     background-color: #111827;
 }
 
-.header {
-    position: absolute;
-    z-index: 1;
-    top: 0;
-    left: 0;
+
+.global-class {
     display: flex;
-    width: 100%;
-    min-height: 88px;
     align-items: center;
+    width: 100%;
+    max-width: 1400px;
     justify-content: space-between;
+}
+
+
+
+
+.header {
+    display: flex;
     gap: 32px;
-    padding: 14px 7%;
+    width: 100%;
+    align-items: center;
+    padding: 14px;
+    justify-content: center;
     border-bottom: 1px solid rgb(255 255 255 / 18%);
+
 }
 
 .logo {
@@ -97,7 +104,8 @@ body {
 .hero {
     position: relative;
     display: flex;
-    min-height: 100vh;
+    justify-content: center;
+    min-height: 40vh;
     align-items: center;
     padding: 140px 7% 72px;
     background-image:
@@ -108,6 +116,8 @@ body {
 }
 
 .hero-content {
+    width: 100% !important;
+    max-width: 1400px;
     width: min(100%, 760px);
     color: #fff;
 }
@@ -224,10 +234,9 @@ body {
 
 .footer-container {
     display: flex;
+    gap: 50px;
     flex-direction: column;
-    justify-content: space-between;
-    gap: 100px;
-    padding: 50px 7%;
+    padding: 50px 0 50px 0;
     width: 100%;
     max-width: 1400px;
 
@@ -240,9 +249,17 @@ body {
 }
 
 .footer-links {
-    display: flex;
     width: 100%;
+    max-width: 80%;
+    display: flex;
     justify-content: space-between;
+}
+
+.footer-logo {
+    display: flex;
+    justify-content: start;
+    width: 100%;
+    max-width: 200px;
 }
 
 .footer-logo img {
