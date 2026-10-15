@@ -224,6 +224,7 @@ body {
 
 .footer-container {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     gap: 100px;
     padding: 50px 7%;
@@ -232,15 +233,22 @@ body {
 
 }
 
+.footer-items {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
 .footer-links {
     display: flex;
     width: 100%;
     justify-content: space-between;
 }
 
-.logo-img  {
+.footer-logo img {
     width: 100px;
     height: 100px;
+    border-radius: 50%;
 }
 
 .footer-menus {
@@ -250,7 +258,25 @@ body {
 }
 
 .footer-menus a {
-    font-size: 20px;
+    text-decoration: none;
+    font-size: 14px;
     color: white;
 
+}
+
+.footer-menus a:hover {
+    color: rgb(17, 10, 140);
+    text-decoration: underline;
+}
+
+.footer-menus h4 {
+    font-size: 20px;
+    color: rgb(17, 10, 140);
+}
+
+.footer-copyright {
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid rgb(255 255 255 / 18%);
+    padding-top: 20px;
 }
